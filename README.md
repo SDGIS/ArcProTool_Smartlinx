@@ -52,9 +52,23 @@ git clone https://github.com/SDGIS/ArcProTool_Smartlinx.git
 
 Once you have downloaded the repo, you can proceed to using the tool in ArcGIS Pro.
 
-2. Using Catalog View -> Add Folder Connection (make the new folder visible to ArcGIS Pro)
-3. Open the toolbox within double click on the Scipt Tool, named "SmartLinxToFeatureClass" which will open the tool dialog interface
-4. Fill in the tool parameters, and Run the tool.
+2. Using ArcGIS Pro Catalog View -> Navigate to the Toolbox SmartLinx.atbx which will be in the location where you downloaded the repo
+![image](https://github.com/SDGIS/ArcProTool_Smartlinx/assets/42779730/cd53a28a-1dad-4768-a2f2-733ffd2c65af)
+
+3. Double click on SmartLinx toolbox to enter the toolbox, and see that the SmartLinxToFeatureClass tool is within the toolbox
+![image](https://github.com/SDGIS/ArcProTool_Smartlinx/assets/42779730/843f2701-4fe4-4f0d-900b-cca5bc3b00a0)
+
+4. Double click on the SmartLinxToFeatureClass Tool and the GP Pane will open the tool where you can fill in the parameters.
+![image](https://github.com/SDGIS/ArcProTool_Smartlinx/assets/42779730/b95ff8c2-bcbe-4ec0-ab07-e3b83af1997d)
+
+5. Fill in the API (https://ats-api.smartlinx.tech/api/v2/), add your Bearer Token from SmartLinx as text, and select an output feature class, and click the Run button in the bottom of the pane. The tool should beginning running, and display messages.
+![image](https://github.com/SDGIS/ArcProTool_Smartlinx/assets/42779730/d078d813-e17a-495e-a8e1-524ae599772f)
+
+6. Check your output feature class for your results!
+
+
+
+
 
 
 
