@@ -41,7 +41,17 @@ pip install asyncio
 8. Assuming packages install successfully, exit the terminal window and go back to Esri ArcGIS Pro
 
 ### Tool Download / Use in ArcGIS Pro
-1. Using git clone or the download button in the Github webpage, download the repo to a location on your harddrive
+1. Using the "Download ZIP" button in the Github webpage, download the repo to a location on your harddrive
+![image](https://github.com/SDGIS/ArcProTool_Smartlinx/assets/42779730/896f03eb-1a6e-465e-9db7-50569f050c9a)
+
+If you know git, can also use git clone:
+
+```
+git clone https://github.com/SDGIS/ArcProTool_Smartlinx.git
+```
+
+Once you have downloaded the repo, you can proceed to using the tool in ArcGIS Pro.
+
 2. Using Catalog View -> Add Folder Connection (make the new folder visible to ArcGIS Pro)
 3. Open the toolbox within double click on the Scipt Tool, named "SmartLinxToFeatureClass" which will open the tool dialog interface
 4. Fill in the tool parameters, and Run the tool.
