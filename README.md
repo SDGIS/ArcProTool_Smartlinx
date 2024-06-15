@@ -26,7 +26,7 @@ A Dialog Box will pop-up stating, "Clone Environment" and provide options for "S
 5. Enter the app, and a terminal window should open. It is necessary to open this specific terminal, because it is installed with ArcGIS Pro and has access to the ArcGIS anaconda python environments.
 You should receive a terminal, resembling the windows below -> That shows it is "active" with the new Esri ArcGIS Pro Env, i.e. the cloned env that was just created. If it says arcgispro-py3 ONLY, and not the name of the one that was just created, please ensure that the cloned environment is showing up in Pro, and that it is set as the "Active Environment."
 ![image](https://github.com/SDGIS/ArcProTool_Smartlinx/assets/42779730/135ca046-be53-4144-92c8-cc8aaec15ce8)
-6. Run the command below in the termainl to install aiohttp
+6. Run the command below in the terminal to install aiohttp
 
 ```
 pip install aiohttp
