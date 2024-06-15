@@ -41,7 +41,7 @@ pip install asyncio
 8. Assuming packages install successfully, exit the terminal window and go back to Esri ArcGIS Pro
 
 ### Tool Download / Use in ArcGIS Pro
-1. Using the "Download ZIP" button in the Github webpage, download the repo to a location on your harddrive
+1. Using the "Download ZIP" button in the Github webpage, download the repo and extract it to a location your ArcGIS Pro project has access to.
 ![image](https://github.com/SDGIS/ArcProTool_Smartlinx/assets/42779730/896f03eb-1a6e-465e-9db7-50569f050c9a)
 
 If you know git, can also use git clone:
